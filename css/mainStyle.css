@@ -1,0 +1,30 @@
+	    
+/*em : the size of the current font*/
+	  body {
+	  	background: lightgray;
+	  	width: 800px;
+	  }
+	 /* #pp{
+	  	background: yellow;
+	  }*/
+	   a {
+	   	text-decoration: none;
+	   }
+
+	    p {
+	        font-size: 1em;
+	        font-family: Arial, san-serif;
+          }
+
+        #content {
+        	border: 1px solid black;
+        	background: white;
+        	width: 80%;
+        }
+        .textBox{
+        	background: yellow;
+        }  
+        ol>li {
+        	color: blue;
+        	font-weight: bold;
+        }
