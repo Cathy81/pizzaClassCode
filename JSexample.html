@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Examples</title>
+</head>
+<body>
+
+<!-- add js at the bootoem of body will make the web page to load faster than in the header -->
+<script type="text/javascript">
+	var g= function(name){
+		document.write("<h1>"+name+"</h1>")
+	}
+
+    g("Cathy Liu")
+    var add=function(n1, n2){
+    	return n1+n2;
+    }
+    var div=function(n1, n2){
+    	return n1/n2
+    }
+
+    var cal=function(n1, n2, f1){
+    	var r=f1(n1,n2);
+    	return r;
+    }
+
+   var rr=cal2(5, 5, function(a1, a2){
+    	return a1*a2;
+    });
+
+
+
+    document.write("rr "+rr+"<br>");
+
+	document.write("<h1>hello!</h1>")
+
+
+	var i=10;
+   document.write("i is: "+i+"<br>")
+   if( i==='10') 
+   	// compare type and value
+   	document.write("TRUE<br>");
+   else
+   	document.write("FALSE<br>");
+// " " and "" no diff.
+
+   var result=3*'30'
+ document.write("Result "+result)	
+ //create an object
+ var pizzaObj={"name":"Cheese",price:9.99, size: "L"}
+  document.write(pizzaObj["name"]);
+
+  //print the data in obj.
+  for(var n in pizzaObj)
+  	document.write("<br>"+n +": " +pizzaObj[n]+";")
+
+ document.write("<br> ")	
+</script>
+</body>
+</html>
